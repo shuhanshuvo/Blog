@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+    background: #fff !important;
+    border-bottom: 3px solid #FC9931;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.navbar img {
+    width: 26%;
+}
+i.fa.fa-search {
+    color: #fff;
+    padding-right: 10px;
+}
+.registration input.form-control {
+    border-radius: 5px;
+    background: #fff;
+}
+.input-group-btn .btn{
+    border-radius: 0px;
+    background: #FC9931;
+    border: 1px solid #FC9931;
+    padding-left: 25px;
+}
+.home-section{
+	background-image: url('../frontend/img/Alumni-Banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+}
+.dark-overlay{
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.8);
+}
+form.registration {
+    margin-top: 15px;
+    background-color: #FC9931;
+    padding: 15px 32px;
+}
+label {
+    color: #444;
+    font-family: montserrat;
+    font-size: 15px;
+}
+.home-section h3 {
+    margin-top: 90px;
+    color: #ddd;
+    text-align: center;
+}
+.home-section h1 {
+    margin-top: 250px;
+    color: #ddd;
+    font-size: 35px;
+}
+.line{
+    border-bottom: 2px solid;
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.btn {
+    color: #fff;
+    background-color: #FC9931;
+    border-radius: 0px;
+    padding: 6px 12px;
+}
+.btn:hover{
+	color: #ddd;
+}
+.submit-session a{
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.8s;
+}
+.submit-session a:hover{
+	background-color: #FC9931;
+	color: #fff;
+	transition: 0.8s;
+	border: 1px solid #fff;
+}
+.social-media{
+	text-align: center;
+}
+.social-media i{
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 22px;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+.color1{
+	transition: 0.5s;
+	background: #4267B2;
+    padding: 13px 17px;
+}
+.color1:hover{
+	background-color: #fff;
+	color: #4267B2;
+	transition: 0.5s;
+}
+.color2 {
+    background: #0073B2;
+    transition: 0.5s;
+    padding: 10px 15px;
+}
+.color2:hover{
+	background-color: #fff;
+	color: #0073B2;
+	transition: 0.5s;
+}
+.color3 {
+    background: #CC3E28;
+    transition: 0.5s;
+    padding: 13px 15px;
+}
+.color3:hover{
+	background-color: #fff;
+	color: #CC3E28;
+	transition: 0.5s;
+}
+.text-center{
+	color: #fff;
+    margin-top: 5px;
+    color: #fff;
+}
+.login {
+    margin-top: 5px;
+    color: #fff;
+    margin-bottom: 0px;
+    font-size: 14px;
+    text-align: center;
+}
+form.login-form {
+    margin-top: 15px;
+    background-color: #FC9931;
+    padding: 30px 40px;
+}
+.pull-right {
+    margin-top: -12px;
+    float: right;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.rem-for a{
+	text-decoration: none;
+}
+.pull-right:hover{
+	color: #fff;
+}
+.profile-info{
+	/* background-color: #ccc; */
+}
+.title {
+    text-align: center;
+}
+.title .line{
+	margin: auto;
+	width: 70px;
+	height: 5px;
+	background-color: #222222;
+	margin-bottom: 30px;
+}
+.profile-info a{
+    background: #FC9931;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: montserrat;
+    border: none;
+    margin-top: 25px;
+    text-decoration: none;
+    transition: 0.8s;
+    margin-bottom: 25px;
+}
+.profile-info a:hover{
+	background-color: #fff;
+	border: 1px solid #FC9931;
+	color: #FC9931;
+	transition: 0.8s;
+}
+.shadow {
+    padding: 50px 50px 80px 50px;
+    box-shadow: 5px 0px 20px rgba(0,0,0, .2);
+}
+.Alumni-img img {
+    width: 100%;
+    height: 450px;
+}
+.Alumni-desc {
+    margin-top: 25px;
+    text-align: justify;
+}
+.user-profile-image .user-pict-150 {
+    width: 150px;
+    height: 150px;
+    overflow: visible;
+    border-radius: 50%;
+}
+.user-profile-image .user-pict .user-pict-img {
+    border-radius: 50%;
+}
+.user-profile-image .user-pict-150 img {
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #777;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.Social{
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 0px;
+    padding: 6px 12px;
+}
+.btn-info{
+    color: #fff;
+    background: #3399FF;
+}
+.btn-primary{
+    color: #fff;
+    background: #0073B2;
+}
+/*  ------- Media Query -------  */
